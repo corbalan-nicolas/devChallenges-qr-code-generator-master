@@ -58,7 +58,7 @@ input, button, a {
   flex-direction: column;
 }
 
-.main-container--jusfity-center {
+.main-container--justify-center {
   justify-content: center;
 }
 
