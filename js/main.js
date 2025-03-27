@@ -24,7 +24,7 @@ document.forms[0].addEventListener('submit', (e) => {
     height: 150
   })
 
-  document.querySelector('.main-container').classList.remove('main-container__jusfity-center')
+  document.querySelector('.main-container').className = 'main-container main-container--items-center'
   document.querySelector('.main-container').innerHTML = 
   `
     <img class="logo logo--margin" src="resources/Logo-small.svg" alt="QRCODE's Logo">
